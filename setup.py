@@ -15,15 +15,15 @@ setup(name='sample_service',
   package_dir={'': 'src'},
   setup_requires=[
     'nose>=1.3.4',
-    'm_services'
+    # 'm_services'
     ],
   dependency_links = [
-    'git+ssh://git@github.com/minted/m_services.git@master#egg=m-services'
+    # 'git+ssh://git@github.com/minted/m_services.git@master#egg=m-services'
     # 'git+ssh://git@github.com:minted/m_services.git@master#egg=m-services'
   ],
   install_requires=[
     'flask==0.10.1',
     'flask-restful==0.2.12',
-    'm_services'
+    # 'm_services'
   ]
 )
